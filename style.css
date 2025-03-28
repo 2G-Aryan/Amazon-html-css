@@ -1,0 +1,261 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  "Amazon Ember", Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden; 
+}
+
+nav{
+    background-color: rgb(8, 8, 79);
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 18px;
+}
+
+.logo{
+    width: 84px;
+    height: 51px;
+}
+
+.logo img{
+    width: 90px;
+    position: relative;
+    left: 23px;
+    bottom: 7px;
+}
+
+.location{
+    width: 40px;
+}
+
+.location img{
+    width: 15px;
+    position: relative;
+    left: 30px;
+cursor: pointer;
+   
+}
+
+.locationcontent{
+    color: white;
+}
+
+.dropdown select{
+    background-color: #e2e2e2;
+    width: 55px;
+    height: 45px;
+    position: relative;
+    right: -19px;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+
+.searchbar input{
+    width: 715px;
+    height: 45px;
+    
+}
+
+.searchlogo{
+    background-color: orange;
+    height: 43px;
+    width: 35px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    right: 18px;
+}
+
+.searchlogo img{
+ width: 30px;
+ position: relative;
+ top: 7px;
+}
+
+.country img{
+    width: 24px;
+}
+
+.country select{
+    background-color: transparent;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cart img{
+    width: 37px;
+    cursor: pointer;
+}
+
+.options{
+    background-color: rgb(8, 8, 79);
+    color: white;
+}
+.options ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.showresult{
+    border: 1px solid;
+    padding: 5px;
+    position: relative;
+    bottom: 16px;
+    box-shadow: 9px 2px 6px;
+}
+
+.options ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+.options ul li img{
+   width: 20px;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.product{
+    width: 100%;
+    display: flex;
+}
+
+.main{
+    display: flex;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2ecec;
+}
+.phone img{
+    background-color: #f4ecec;
+    width: 270px;
+}
+
+.checked {
+    color: orange;
+}
+
+.text{
+    padding: 10px;
+}
+.text button{
+    background-color: yellow;
+    padding: 7px;
+    border-radius: 15px;
+}
+.product{
+    padding: 0px;
+    height: 400px;
+}
+.productlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+    aside{
+    font-size: larger;
+    margin-left: 15px;
+}
+
+p{
+    margin-top: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar10{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+nav{
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locationcontent{
+    display: none;
+}
+.location img{
+    display: none;
+}
+.searchbar input{
+    width: 290px;
+}
+.sigin{
+    display: none;
+}
+
+aside{
+    display: none;
+}
+
+.product{
+    display: flex
+    ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            margin: 2px;
+            position: relative;
+            top: 40px;
+            margin-top: 30px;
+}
+.text{
+    padding: 5px;
+    justify-content: center;
+}
+.text button{
+    position: relative;
+    left: 30%;
+}
+.sidebar{
+    display: none;
+}
+
+.options {
+    display: none;
+}
+
+.navbar10{
+position: absolute;
+position: absolute;
+top: 50px;
+background-color: black;
+}
+
+.showresult{
+    top: 45px;
+}
+
+.py-5{
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important;
+}
+
+  }
